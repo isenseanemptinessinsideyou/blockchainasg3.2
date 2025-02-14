@@ -1,0 +1,3 @@
+const ATIU_DAMIR_SE2327 = await ethers.getContractFactory("ATIU_DAMIR_SE2327");
+const token = await ATIU_DAMIR_SE2327.deploy();
+await token.deployed();
